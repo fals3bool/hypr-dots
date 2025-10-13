@@ -1,0 +1,35 @@
+{
+  "custom/terminal": {
+    "icon": " 󰆍",
+    "tooltip": "Terminal",
+    "executeOnAction": "",
+    "hideOnEmpty": false,
+    "actions": {
+      "onLeftClick": "kitty",
+      "onRightClick": "",
+      "onMiddleClick": ""
+    }
+  },
+  "custom/filemanager": {
+    "icon": " ",
+    "tooltip": "Yazi / Nautilus",
+    "executeOnAction": "",
+    "hideOnEmpty": false,
+    "actions": {
+      "onLeftClick": "kitty -e yazi $HOME",
+      "onRightClick": "nautilus $HOME",
+      "onMiddleClick": ""
+    }
+  },
+  "custom/rofi": {
+    "icon": "",
+    "tooltip": "Rofi",
+    "executeOnAction": "",
+    "hideOnEmpty": false,
+    "actions": {
+      "onLeftClick": "rofi -show drun",
+      "onRightClick": "killall rofi",
+      "onMiddleClick": ""
+    }
+  }
+}

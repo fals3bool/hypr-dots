@@ -1,0 +1,5 @@
+modmap:
+  - name: capslock
+    remap:
+      KEY_CAPSLOCK: KEY_102ND
+

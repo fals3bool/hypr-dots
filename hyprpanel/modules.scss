@@ -39,3 +39,18 @@
     'inner-spacing': 0
   )
 );
+
+@include styleModule(
+  'cmodule-firefox',
+  (
+    'text-color': #232829,
+    'icon-color': #232829,
+    'icon-background': #23282900,
+    'label-background': #23282900,
+    'border-size': 0em,
+    'border-color': #8C8C97,
+    'icon-size': 1.4em,
+    'inner-spacing': 0
+  )
+);
+

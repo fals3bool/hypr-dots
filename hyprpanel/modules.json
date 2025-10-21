@@ -1,11 +1,33 @@
 {
+  "custom/rofi": {
+    "icon": " ",
+    "tooltip": "Rofi",
+    "executeOnAction": "",
+    "hideOnEmpty": false,
+    "actions": {
+      "onLeftClick": "rofi -show drun",
+      "onRightClick": "killall rofi",
+      "onMiddleClick": ""
+    }
+  },
   "custom/terminal": {
-    "icon": " 󰆍",
+    "icon": "󰆍",
     "tooltip": "Terminal",
     "executeOnAction": "",
     "hideOnEmpty": false,
     "actions": {
       "onLeftClick": "kitty",
+      "onRightClick": "",
+      "onMiddleClick": ""
+    }
+  },
+  "custom/firefox": {
+    "icon": "󰈹",
+    "tooltip": "Firefox",
+    "executeOnAction": "",
+    "hideOnEmpty": false,
+    "actions": {
+      "onLeftClick": "firefox",
       "onRightClick": "",
       "onMiddleClick": ""
     }
@@ -18,17 +40,6 @@
     "actions": {
       "onLeftClick": "kitty -e yazi $HOME",
       "onRightClick": "nautilus $HOME",
-      "onMiddleClick": ""
-    }
-  },
-  "custom/rofi": {
-    "icon": "",
-    "tooltip": "Rofi",
-    "executeOnAction": "",
-    "hideOnEmpty": false,
-    "actions": {
-      "onLeftClick": "rofi -show drun",
-      "onRightClick": "killall rofi",
       "onMiddleClick": ""
     }
   }

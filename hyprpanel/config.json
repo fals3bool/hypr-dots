@@ -118,7 +118,7 @@
   "theme.bar.menus.menu.dashboard.card.color": "#232829F0",
   "theme.bar.menus.menu.clock.calendar.contextdays": "#232829",
   "theme.bar.menus.menu.clock.calendar.days": "#696974",
-  "theme.bar.menus.menu.clock.calendar.currentday": "#8C8C97",
+  "theme.bar.menus.menu.clock.calendar.currentday": "#9C8C97",
   "theme.bar.menus.menu.clock.calendar.paginator": "#8C8C97",
   "theme.bar.menus.menu.clock.calendar.weekdays": "#8C8C97",
   "theme.bar.menus.menu.clock.calendar.yearmonth": "#8C8C97",
@@ -369,8 +369,9 @@
     "0": {
       "left": [
         "dashboard",
-        "custom/terminal",
         "custom/rofi",
+        "custom/terminal",
+        "custom/firefox",
         "custom/filemanager",
         "separator",
         "workspaces",
@@ -392,8 +393,9 @@
     "1": {
       "left": [
         "dashboard",
-        "custom/terminal",
         "custom/rofi",
+        "custom/terminal",
+        "custom/firefox",
         "custom/filemanager",
         "separator",
         "workspaces",
@@ -415,8 +417,9 @@
     "2": {
       "left": [
         "dashboard",
-        "custom/terminal",
         "custom/rofi",
+        "custom/terminal",
+        "custom/firefox",
         "custom/filemanager",
         "separator",
         "workspaces",

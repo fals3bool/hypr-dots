@@ -1,4 +1,5 @@
 format = """
+$cmd_duration\
 [](#1A1A1D)\
 $os\
 $username\
@@ -10,7 +11,7 @@ $directory\
 ${custom.directory_separator_not_git}\
 ${custom.directory_separator_git}\
 $symbol($git_branch)\
-$symbol( $git_commit$git_status$git_metrics$git_state)$fill$cmd_duration\
+$symbol( $git_commit$git_status$git_metrics$git_state)\
 $line_break\
 $character
 """
@@ -80,6 +81,6 @@ display_private = true
 # Output the command duration if grather than min_time (seconds)
 [cmd_duration]
 min_time = 1_000
-format = "[  $duration ]($style)"
-style = "white"
+format = "[   $duration \n\n]($style)"
+style = "yellow"
 

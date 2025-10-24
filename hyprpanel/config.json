@@ -4,11 +4,11 @@
   ],
   "theme.font.name": "SauceCodePro Nerd Font",
   "theme.font.label": "SauceCodePro Nerd Font",
-  "theme.font.size": "0.72rem",
+  "theme.font.size": "0.735rem",
   "theme.font.weight": 600,
   "theme.bar.location": "top",
   "theme.bar.buttons.style": "default",
-  "bar.autoHide": "fullscreen",
+  "bar.autoHide": "never",
   "theme.bar.buttons.enableBorders": false,
   "bar.workspaces.show_icons": false,
   "bar.workspaces.show_numbered": false,
@@ -569,8 +569,10 @@
   "theme.bar.border.width": "0.15em",
   "theme.bar.menus.enableShadow": false,
   "theme.bar.shadowMargins": "0px 0px 1px 0px",
-  "theme.bar.layer": "overlay",
+  "theme.bar.layer": "background",
   "menus.dashboard.directories.right.directory1.command": "bash -c \"kitty -e yazi $HOME/Documents/\"",
   "theme.bar.buttons.clock.spacing": "0.6em",
-  "bar.launcher.rightClick": "$HOME/.config/hypr/scripts/wlogout.sh"
+  "bar.launcher.rightClick": "$HOME/.config/hypr/scripts/wlogout.sh",
+  "menus.transition": "crossfade",
+  "theme.bar.buttons.separator.color": "#585b70"
 }

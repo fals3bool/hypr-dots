@@ -3,6 +3,7 @@ $cmd_duration\
 [](#1A1A1D)\
 $os\
 $username\
+[ ](fg:#8C8C97 bg:#1A1A1D)\
 $hostname\
 [](fg:#1A1A1D)\
 [](fg:#8C8C97)\
@@ -56,8 +57,8 @@ style = 'bold bg:#1A1A1D fg:#8C8C97'
 disabled = false # disabled by default
 
 [os.symbols]
-Debian = " "
-Arch = " "
+Debian = " "
+Arch = "  "
 
 [directory]
 style = 'bold bg:#8C8C97 fg:#1A1A1D'
